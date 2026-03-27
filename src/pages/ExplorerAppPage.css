@@ -1,0 +1,15 @@
+.explorer-page {
+  background: linear-gradient(180deg, #dff7ff, #b8eaff);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.explorer-page .player-card {
+  border: 3px solid #4db8ff;
+}
+
+.explorer-page .icon-grid {
+  background-color: #e8faff;
+  border-radius: 12px;
+  padding: 16px;
+}

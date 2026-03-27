@@ -1,0 +1,36 @@
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.icon-grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--card-bg, #ffffff);
+  border-radius: 12px;
+  padding: 16px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.icon-grid-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.icon-img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
+}
+
+.icon-label {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
