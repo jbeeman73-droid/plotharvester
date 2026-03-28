@@ -45,7 +45,8 @@ function AppRoutes() {
 
   return (
     <Routes>
-      <Route path="/" element={<SplashPage onCreate={addUser} />} />
+      <Route path="/" element={<SplashPage />} />
+
 
       <Route
         path="/manage-users"
